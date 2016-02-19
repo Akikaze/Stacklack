@@ -9,4 +9,4 @@ It was created with Grails 3.0.10.
 
 # Credits
 
-Created by Artance Nicolas and David Feraud
+Created by Nicolas Artance and David Feraud
