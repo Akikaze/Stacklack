@@ -1,7 +1,6 @@
 # Stacklack
-Grails TP
 
-This project is a fake copy of Stack Overflow called Stacklack.
+This project is a fake copy of Stack Overflow called Stacklack developped with Grails.
 
 # Installation
 
