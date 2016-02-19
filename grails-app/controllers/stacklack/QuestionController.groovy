@@ -239,7 +239,7 @@ class QuestionController {
         {
             def name = session.SPRING_SECURITY_CONTEXT?.getAuthentication()?.getPrincipal()?.getUsername()
             User user = User.list().find( { u -> u.username == name } )
-            user.reputation = user.reputation + 10
+            user.reputation = user.reputation + 5
 
             if( params.issue != null )
             {
