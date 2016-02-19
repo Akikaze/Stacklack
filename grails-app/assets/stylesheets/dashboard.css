@@ -1,0 +1,374 @@
+body
+{
+    font-family : Calibri ;
+    line-height : 1 ;
+    margin : 0px ;
+    padding : 0px ;
+    text-decoration : none ;
+}
+
+section
+{
+    margin-top : 30px ;
+}
+
+section > header
+{
+    font-size : 1.5em ;
+    font-weight : bold ;
+    margin-bottom : 30px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    width : 700px ;
+}
+
+article
+{
+    background-color : #CCCCCC ;
+    margin-bottom : 10px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    width : 700px ;
+}
+
+#info
+{
+    box-sizing : border-box ;
+    font-size : 1.0em ;
+    line-height : 1.6em ; 
+    padding : 10px ;
+}
+
+#info > .quote
+{
+    font-size : 1.6em ;
+    font-weight : bold ;
+}
+
+#info input
+{
+    border : 0px ;
+    background : none ;
+    color : #D82100 ;
+    font-family : Calibri ;
+    font-size : 1em ;
+    text-decoration : none ;
+}
+
+#info input:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+.input
+{
+    border : 1px solid #E0E0E0 ;
+    margin : 0px ;
+    padding : 0px ;
+}
+
+#post 
+{
+    height : 30px ;
+}
+
+#post > #resolved
+{
+    display : inline-block ;
+    float : left ;
+    height : 100% ;
+    position: relative ;
+    width : 5px ;
+    z-index: 1 ;
+}
+
+#post > #type
+{
+    background-color : #242424 ;
+    border-right : 1px solid #E0E0E0 ;
+    color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    font-size : 1.5em ;
+    font-weight : bold ;
+    height : 100% ;
+    line-height : 30px ;
+    position: relative ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 40px ;
+}
+
+#post > #title
+{
+    background-color : #CCCCCC ;
+    display : inline-block ;
+    float : left ;
+    font-size : 0.9em ;
+    height : 100% ;
+    left : 0px ;
+    line-height: 25px ;
+    padding-left : 10px ;
+    position: relative ;
+    width : 544px ;
+}
+
+#post > #title > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#post > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#post > #title > h1
+{
+    font-size : 1.3em ;
+    line-height : 1 ;
+    margin : 0px ;
+    margin-bottom : 5px ;
+    margin-left : 5px ;
+    margin-top : 7px ;
+    padding : 0px ;
+}
+
+#post > #title > h1 > a
+{
+    color : #242424 ;
+    line-height : 1 ;
+    text-decoration : none ;
+}
+
+#post > #title > h1 > a:hover
+{
+    color : #D82100 ;
+}
+
+#post > #answers
+{
+    background-color : #E0E0E0 ;
+    float : left ;
+    font-size : 1.1em ;
+    height : 25px ;
+    padding-top : 5px ;
+    text-align : center ;
+    width : 100px ;
+}
+
+#tag
+{
+    background : none ;
+}
+
+#tag > .header
+{
+    font-size : 1.5em ;
+    font-weight : bold ;
+    margin-right : 10px ;
+}
+
+#tag > a
+{
+    background-color : #D82100 ;
+    border-radius : 5px ;
+    color : #FFFFFF ;
+    font-size : 0.8em ;
+    line-height : 1.7 ;
+    padding-left : 5px ;
+    padding-right : 5px ;
+    text-decoration : none ;
+}
+
+#tag > a:hover
+{
+    background-color : #BA1C00 ;
+}
+
+#vote 
+{
+    height : 30px ;
+}
+
+#vote > #resolved
+{
+    display : inline-block ;
+    float : left ;
+    height : 100% ;
+    position: relative ;
+    width : 5px ;
+    z-index: 1 ;
+}
+
+#vote > #type
+{
+    background-color : #242424 ;
+    border-right : 1px solid #E0E0E0 ;
+    color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    font-size : 1.5em ;
+    font-weight : bold ;
+    height : 100% ;
+    line-height : 30px ;
+    position: relative ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 40px ;
+}
+
+#vote > #title
+{
+    background-color : #CCCCCC ;
+    display : inline-block ;
+    float : left ;
+    font-size : 0.9em ;
+    height : 100% ;
+    left : 0px ;
+    line-height: 25px ;
+    padding-left : 10px ;
+    position: relative ;
+    width : 544px ;
+}
+
+#vote > #title > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#vote > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#vote > #title > h1
+{
+    font-size : 1.3em ;
+    line-height : 1 ;
+    margin : 0px ;
+    margin-bottom : 5px ;
+    margin-left : 5px ;
+    margin-top : 7px ;
+    padding : 0px ;
+}
+
+#vote > #title > h1 > a
+{
+    color : #242424 ;
+    line-height : 1 ;
+    text-decoration : none ;
+}
+
+#vote > #title > h1 > a:hover
+{
+    color : #D82100 ;
+}
+
+#vote > #voteType
+{
+    background-color : #E0E0E0 ;
+    float : left ;
+    font-size : 1.1em ;
+    height : 25px ;
+    padding-top : 5px ;
+    text-align : center ;
+    width : 100px ;
+}
+
+#favorite 
+{
+    height : 30px ;
+}
+
+#favorite > #resolved
+{
+    display : inline-block ;
+    float : left ;
+    height : 100% ;
+    position: relative ;
+    width : 5px ;
+    z-index: 1 ;
+}
+
+#favorite > #type
+{
+    background-color : #242424 ;
+    border-right : 1px solid #E0E0E0 ;
+    color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    font-size : 1.5em ;
+    font-weight : bold ;
+    height : 100% ;
+    line-height : 30px ;
+    position: relative ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 40px ;
+}
+
+#favorite > #title
+{
+    background-color : #CCCCCC ;
+    display : inline-block ;
+    float : left ;
+    font-size : 0.9em ;
+    height : 100% ;
+    left : 0px ;
+    line-height: 25px ;
+    padding-left : 10px ;
+    position: relative ;
+    width : 544px ;
+}
+
+#favorite > #title > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#favorite > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#favorite > #title > h1
+{
+    font-size : 1.3em ;
+    line-height : 1 ;
+    margin : 0px ;
+    margin-bottom : 5px ;
+    margin-left : 5px ;
+    margin-top : 7px ;
+    padding : 0px ;
+}
+
+#favorite > #title > h1 > a
+{
+    color : #242424 ;
+    line-height : 1 ;
+    text-decoration : none ;
+}
+
+#favorite > #title > h1 > a:hover
+{
+    color : #D82100 ;
+}
+
+#favorite > #answers
+{
+    background-color : #E0E0E0 ;
+    float : left ;
+    font-size : 1.1em ;
+    height : 25px ;
+    padding-top : 5px ;
+    text-align : center ;
+    width : 100px ;
+}

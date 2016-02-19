@@ -1,0 +1,488 @@
+body
+{
+    font-family : Calibri ;
+    line-height : 1 ;
+    margin : 0px ;
+    padding : 0px ;
+    text-decoration : none ;
+}
+
+section
+{
+    margin-top : 50px ;
+}
+
+section > header
+{
+    font-size : 1.5em ;
+    font-weight : bold ;
+    margin-left : auto ;
+    margin-right : auto ;
+    text-align : right ;
+    width : 750px ;
+}
+
+#issue
+{
+    background-color : #CCCCCC ;
+    margin-top : 25px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    height : 70px ;
+    width : 700px ;
+}
+
+#issue > #resolved
+{
+    display : inline-block ;
+    float : left ;
+    height : 70px ;
+    position: relative ;
+    width : 5px ;
+    z-index: 1 ;
+}
+
+#issue > #language
+{
+    background-color : #242424 ;
+    border-right : 1px solid #E0E0E0 ;
+    color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    height : 70px ;
+    position: relative ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 70px ;
+    z-index: 1 ;
+}
+
+#issue > #title
+{
+    background-color : #CCCCCC ;
+    display : inline-block ;
+    float : left ;
+    font-size : 0.9em ;
+    height : 70px ;
+    left : 0px ;
+    line-height: 32px ;
+    padding-left : 10px ;
+    position: relative ;
+    width : 539px ;
+    z-index: 1 ;
+}
+
+#issue > #title > h1
+{
+    color : #242424 ;
+    font-size : 1.5em ;
+    line-height : 1 ;
+    margin : 0px ;
+    margin-bottom : 5px ;
+    margin-left : 5px ;
+    margin-top : 10px ;
+    padding : 0px ;
+}
+
+#issue > #title > h1:hover
+{
+    color : #D82100 ;
+}
+
+#issue > #title > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#issue > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#issue > #title > #tag > a
+{
+    background-color : #D82100 ;
+    border-radius : 5px ;
+    color : #FFFFFF ;
+    font-size : 0.9em ;
+    padding-left : 5px ;
+    text-decoration : none ;
+}
+
+#issue > #title > #tag > a:hover
+{
+    background-color : #BA1C00 ;
+    border-radius : 5px ;
+    color : #FFFFFF ;
+    font-size : 0.9em ;
+    padding-left : 5px ;
+    text-decoration : none ;
+}
+
+#issue > #hide
+{
+    background-color : #E0E0E0 ;
+    display : inline-block ;
+    height : 70px ;
+    left : 0 ;
+    margin-left : auto ;
+    margin-right : auto ;
+    position: absolute ;
+    right : 0 ;
+    width : 700px ;
+    z-index : 0 ;
+}
+
+#issue > #hide > .block
+{
+    display : inline-block ;
+    float : right ;
+    height : 70px ;
+    line-height: 70px ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 75px ;
+    z-index : 0 ;
+}
+
+#issue > #hide > .block > #vote_plus
+{
+    background-color : #E0E0E0 ;
+    height : 21px ;
+    line-height : 0px ;
+    padding-top : 4px ;
+    z-index : 0 ;
+}
+
+#issue > #hide > .block > #vote
+{
+    background-color : #E0E0E0 ;
+    line-height : 20px ;
+    z-index : 0 ;
+}
+
+#issue > #hide > .block > #vote_minus
+{
+    background-color : #E0E0E0 ;
+    height : 23px ;
+    line-height : 0px ;
+    padding-top : 2px ;
+    z-index : 0 ;
+}
+
+#issue > #text
+{
+    background-color : #EEEEEE ;
+    border : 1px solid #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    line-height : 1.2em ;
+    padding : 5px ;
+    margin-bottom : 10px ;
+    width : 688px ;
+}
+
+#issue form
+{
+    display : inline ;
+}
+
+#issue .icon
+{
+    vertical-align : middle ;
+}
+
+.clear
+{
+    clear:both;
+}
+
+#comment
+{
+    border-bottom : 1px solid #EEEEEE ;
+    line-height : 1.2em ;
+    margin-left : auto ;
+    margin-right : auto ;
+    padding : 5px ;
+    width : 680px ;
+}
+
+#comment > .block
+{
+    display : inline-block ;
+}
+
+#comment > .block > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#comment > .block > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#comment > input
+{
+    border : 0px ;
+    background : none ;
+    color : #D82100 ;
+    font-family : Calibri ;
+    font-size : 1em ;
+    text-decoration : none ;
+}
+
+#comment > input:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#comment form
+{
+    display : inline ;
+}
+
+#comment .icon
+{
+    vertical-align : middle ;
+}
+
+
+#answer
+{
+    background-color : #EEEEEE ;
+    margin-left : auto ;
+    margin-right : auto ;
+    margin-top : 25px ;
+    height : 70px ;
+    width : 700px ;
+}
+
+#answer > #helped
+{
+    display : inline-block ;
+    float : left ;
+    height : 5px ;
+    position: relative ;
+    width : 623px ;
+    z-index: 1 ;
+}
+
+#answer > #text
+{
+    background-color : #EEEEEE ;
+    display : inline-block ;
+    float : left ;
+    min-height : 55px ;
+    left : 0px ;
+    line-height: 1.2em ;
+    padding-bottom : 5px ;
+    padding-left : 10px ;
+    padding-top : 5px ;
+    position: relative ;
+    width : 613px ;
+    z-index: 1 ;
+}
+
+#answer > #text > .block
+{
+    display : inline-block ;
+}
+
+#answer > #text > .block > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#answer > #text > .block > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#answer > #hide
+{
+    background-color : #E0E0E0 ;
+    display : inline-block ;
+    height : 70px ;
+    left : 0 ;
+    margin-left : auto ;
+    margin-right : auto ;
+    position: absolute ;
+    right : 0 ;
+    width : 700px ;
+    z-index : 0 ;
+}
+
+#answer > #hide > .block
+{
+    border-left : 2px dashed #E0E0E0 ;
+    display : inline-block ;
+    float : right ;
+    height : 70px ;
+    line-height: 70px ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 75px ;
+    z-index : 0 ;
+}
+
+#answer > #hide > .block > #vote_plus
+{
+    background-color : #E0E0E0 ;
+    height : 21px ;
+    line-height : 0px ;
+    padding-top : 4px ;
+    z-index : 0 ;
+}
+
+#answer > #hide > .block > #vote
+{
+    background-color : #E0E0E0 ;
+    line-height : 20px ;
+    z-index : 0 ;
+}
+
+#answer > #hide > .block > #vote_minus
+{
+    background-color : #E0E0E0 ;
+    height : 23px ;
+    line-height : 0px ;
+    padding-top : 2px ;
+    z-index : 0 ;
+}
+
+#answer form
+{
+    display : inline ;
+}
+
+#answer .icon
+{
+    vertical-align : middle ;
+}
+
+#newAnswer
+{
+    margin-left : auto ;
+    margin-right : auto ;
+    margin-top : 25px ;
+    width : 700px ;
+}
+
+#newQuestion
+{
+    margin-left : auto ;
+    margin-right : auto ;
+    margin-top : 25px ;
+    width : 700px ;
+}
+
+#newQuestion > .form
+{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+#newQuestion > .form > input,
+#newQuestion > .form > textarea
+{
+    border : 1px solid #E0E0E0 ;
+    font-family : Calibri ;
+    font-size : 1.1em ;
+    padding : 5px ;
+}
+
+#newQuestion > .form > select
+{
+    border : 1px solid #E0E0E0 ;
+    float : right ;
+    font-family : Calibri ;
+    font-size : 1.1em ;
+    height : 34px ;
+    margin-right : -12px ;
+    padding : 5px ;
+}
+
+#newQuestion > .form > .submit
+{
+    background-color : #FFFFFF ;
+    border : 1px solid #E0E0E0 ;
+    color : #82B21A ;
+    float : right ;
+    height : 34px ;
+    margin-right : -12px ;
+    padding : 0 ;
+    width : 99px ;
+}
+
+#newQuestion > .form > .submit:hover
+{
+    background-color : #82B21A ;
+    border : 1px solid #E0E0E0 ;
+    color : #242424 ;
+}
+
+.input
+{
+    border : 1px solid #E0E0E0 ;
+    margin : 0px ;
+    padding : 0px ;
+}
+
+#sort
+{
+    margin-bottom : 50px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    width : 750px ;
+}
+
+#sort a
+{
+    color : #242424 ;
+    text-decoration : none ;
+}
+
+#sort > ul
+{
+    list-style-type : none ;
+    margin : 0 ;
+    overflow : hidden ;
+    padding : 0 ;
+}
+
+#sort > ul > li
+{
+    float : left;
+}
+
+#sort > ul > li
+{
+    display : inline-block ;
+    color : #242424 ;
+    margin-bottom : 1px ;
+    text-align : center ;
+    padding : 7px 7px ;
+    text-decoration : none ;
+}
+
+#sort > ul > li:hover
+{
+    border-bottom : 1px solid #D82100 ;
+    color : #242424 ;
+    margin-bottom : 0px ;
+}
+
+#sort .hover
+{
+    border-bottom : 1px solid #D82100 ;
+    color : #242424 ;
+    margin-bottom : 0px ;
+}

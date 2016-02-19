@@ -1,0 +1,79 @@
+nav
+{
+	background-color : #242424 ;
+	color : #E0E0E0 ;
+	height : 35px ;
+	text-decoration : none ;
+	width : 100% ;
+}
+
+nav > #left
+{
+	float : left ;
+	font-size : 32px ;
+	font-weight : bold ;
+	margin-top : 0.5px ;
+	padding-left : 7px ;
+	text-decoration : none ;
+}
+
+nav > #left > .motto
+{
+	font-size : 0.6em ;
+	font-style : italic ;
+	margin-left : 10px ;
+}
+
+nav > #left > a
+{
+	color : #E0E0E0 ;
+	text-decoration : none ;
+}
+
+nav > #left > a:hover
+{
+	color : #D82100 ;
+	text-decoration : none ;
+}
+
+nav > #right
+{
+	background-color : #FF0000 ;
+	float : right ;
+	text-decoration : none ;
+}
+
+nav > #right > ul
+{
+    background-color : #242424 ;
+    list-style-type : none ;
+    margin : 0 ;
+    overflow : hidden ;
+    padding : 0 ;
+}
+
+nav > #right > ul > li
+{
+    float : left;
+}
+
+nav > #right > ul > .text
+{
+    color : #D82100 ;
+    text-align : center ;
+    padding : 9.5px 9.5px ;
+}
+
+nav > #right > ul > li > a
+{
+    display : inline-block ;
+    color : #E0E0E0 ;
+    text-align : center ;
+    padding : 9.5px 9.5px ;
+    text-decoration : none ;
+}
+
+nav > #right > ul > li > a:hover
+{
+    background-color : #111111 ;
+}

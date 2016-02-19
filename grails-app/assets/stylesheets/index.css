@@ -1,0 +1,270 @@
+body
+{
+	font-family : Calibri ;
+	line-height : 1 ;
+	margin : 0px ;
+	padding : 0px ;
+	text-decoration : none ;
+}
+
+section
+{
+	margin-top : 50px ;
+}
+
+section > header
+{
+	font-size : 1.5em ;
+    font-weight : bold ;
+    margin-left : auto ;
+    margin-right : auto ;
+	text-align : right ;
+    width : 750px ;
+}
+
+section > header > input
+{
+	border : none ;
+	background : none ;
+	color : #242424 ;
+	font-family : Calibri ;
+	font-size : 1.0em ;
+    font-weight : bold ;
+}
+
+section > header > input:hover
+{
+	color : #D82100 ;
+}
+
+section > header > a
+{
+	color : #242424 ;
+	text-decoration : none ;
+}
+
+section > header > a:hover
+{
+	color : #D82100 ;
+}
+
+article
+{
+	background-color : #CCCCCC ;
+	margin-bottom : 25px ;
+	margin-left : auto ;
+	margin-right : auto ;
+	height : 70px ;
+	width : 700px ;
+}
+
+article > #resolved
+{
+    display : inline-block ;
+    float : left ;
+	height : 100% ;
+    position: relative ;
+	width : 5px ;
+	z-index: 1 ;
+}
+
+article > #language
+{
+	background-color : #242424 ;
+	border-right : 1px solid #E0E0E0 ;
+	color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+	height : 100% ;
+    position: relative ;
+	text-align : center ;
+	vertical-align: center ;
+	width : 70px ;
+	z-index: 1 ;
+}
+
+article > #title
+{
+	background-color : #CCCCCC ;
+	display : inline-block ;
+	float : left ;
+	font-size : 0.9em ;
+	height : 100% ;
+	left : 0px ;
+	line-height: 32px ;
+	padding-left : 10px ;
+	position: relative ;
+	width : 614px ;
+	z-index: 1 ;
+
+	-webkit-transition: width 0.2s ease-in-out, visibility 1s linear;
+       -moz-transition: width 0.2s ease-in-out, visibility 1s linear;
+         -o-transition: width 0.2s ease-in-out, visibility 1s linear;
+            transition: width 0.2s ease-in-out, visibility 1s linear;
+}
+
+article > #title > a
+{
+	color : #D82100 ;
+	text-decoration : none ;
+}
+
+article > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+article > #title:hover
+{
+	width: 539px ;
+}
+
+article > #title > h1
+{
+	font-size : 1.5em ;
+	line-height : 1 ;
+	margin : 0px ;
+	margin-bottom : 5px ;
+	margin-left : 5px ;
+	margin-top : 10px ;
+	padding : 0px ;
+}
+
+article > #title > h1 > a
+{
+	color : #242424 ;
+	line-height : 1 ;
+	text-decoration : none ;
+}
+
+article > #title > h1 > a:hover
+{
+	color : #D82100 ;
+}
+
+article > #title > #tag > a
+{
+	background-color : #D82100 ;
+	border-radius : 5px ;
+	color : #FFFFFF ;
+	font-size : 0.9em ;
+	padding-left : 5px ;
+	padding-right : 5px ;
+	text-decoration : none ;
+}
+
+article > #title > #tag > a:hover
+{
+	background-color : #BA1C00 ;
+}
+
+article > #hide
+{
+    display : inline-block ;
+	height : 100% ;
+	left : 0 ;
+	margin-left : auto ;
+	margin-right : auto ;
+	position: fixed ;
+	right : 0 ;
+	width : 700px ;
+	z-index : 0 ;
+}
+
+article > #hide > .block
+{
+    display : inline-block ;
+	float : right ;
+	height : 100% ;
+	line-height: 70px ;
+    text-align : center ;
+	vertical-align: center ;
+	width : 75px ;
+	z-index : 0 ;
+}
+
+article > #hide > .block > #vote
+{
+	background-color : #E0E0E0 ;
+	border-bottom : 1px dashed #CCCCCC ;
+	font-size : 0.9em ;
+	line-height : 22px ;
+	height : 22px ;
+	z-index : 0 ;
+
+}
+
+article > #hide > .block > #answer
+{
+	background-color : #E0E0E0 ;
+	border-bottom : 1px dashed #CCCCCC ;
+	border-top : 1px dashed #CCCCCC ;
+	font-size : 0.9em ;
+	line-height : 22px ;
+	height : 22px ;
+	z-index : 0 ;
+
+}
+
+article > #hide > .block > #view
+{
+	background-color : #E0E0E0 ;
+	border-top : 1px dashed #CCCCCC ;
+	font-size : 0.9em ;
+	line-height : 22px ;
+	height : 22px ;
+	z-index : 0 ;
+
+}
+
+#sort
+{
+	margin-bottom : 50px ;
+	margin-left : auto ;
+	margin-right : auto ;
+	width : 750px ;
+}
+
+#sort a
+{
+	color : #242424 ;
+	text-decoration : none ;
+}
+
+#sort > ul
+{
+    list-style-type : none ;
+    margin : 0 ;
+    overflow : hidden ;
+    padding : 0 ;
+}
+
+#sort > ul > li
+{
+    float : left;
+}
+
+#sort > ul > li
+{
+    display : inline-block ;
+    color : #242424 ;
+    margin-bottom : 1px ;
+    text-align : center ;
+    padding : 7px 7px ;
+    text-decoration : none ;
+}
+
+#sort > ul > li:hover
+{
+    border-bottom : 1px solid #D82100 ;
+    color : #242424 ;
+    margin-bottom : 0px ;
+}
+
+#sort .hover
+{
+    border-bottom : 1px solid #D82100 ;
+    color : #242424 ;
+    margin-bottom : 0px ;
+}

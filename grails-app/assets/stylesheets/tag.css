@@ -1,0 +1,129 @@
+body
+{
+    font-family : Calibri ;
+    line-height : 1 ;
+    margin : 0px ;
+    padding : 0px ;
+    text-decoration : none ;
+}
+
+section
+{
+    margin-top : 30px ;
+}
+
+section > header
+{
+    font-size : 1.5em ;
+    font-weight : bold ;
+    margin-bottom : 30px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    width : 700px ;
+}
+
+section > header > .tag
+{
+    color : #D82100 ;
+}
+
+article
+{
+    background-color : #CCCCCC ;
+    margin-bottom : 10px ;
+    margin-left : auto ;
+    margin-right : auto ;
+    width : 700px ;
+}
+
+#issue 
+{
+    height : 30px ;
+}
+
+#issue > #resolved
+{
+    display : inline-block ;
+    float : left ;
+    height : 100% ;
+    position: relative ;
+    width : 5px ;
+    z-index: 1 ;
+}
+
+#issue > #type
+{
+    background-color : #242424 ;
+    border-right : 1px solid #E0E0E0 ;
+    color : #E0E0E0 ;
+    display : inline-block ;
+    float : left ;
+    font-size : 1.5em ;
+    font-weight : bold ;
+    height : 100% ;
+    line-height : 30px ;
+    position: relative ;
+    text-align : center ;
+    vertical-align: center ;
+    width : 40px ;
+}
+
+#issue > #title
+{
+    background-color : #CCCCCC ;
+    display : inline-block ;
+    float : left ;
+    font-size : 0.9em ;
+    height : 100% ;
+    left : 0px ;
+    line-height: 25px ;
+    padding-left : 10px ;
+    position: relative ;
+    width : 544px ;
+}
+
+#issue > #title > a
+{
+    color : #D82100 ;
+    text-decoration : none ;
+}
+
+#issue > #title > a:hover
+{
+    color : #BA1C00 ;
+    text-decoration : underline ;
+}
+
+#issue > #title > h1
+{
+    font-size : 1.3em ;
+    line-height : 1 ;
+    margin : 0px ;
+    margin-bottom : 5px ;
+    margin-left : 5px ;
+    margin-top : 7px ;
+    padding : 0px ;
+}
+
+#issue > #title > h1 > a
+{
+    color : #242424 ;
+    line-height : 1 ;
+    text-decoration : none ;
+}
+
+#issue > #title > h1 > a:hover
+{
+    color : #D82100 ;
+}
+
+#issue > #answers
+{
+    background-color : #E0E0E0 ;
+    float : left ;
+    font-size : 1.1em ;
+    height : 25px ;
+    padding-top : 5px ;
+    text-align : center ;
+    width : 100px ;
+}

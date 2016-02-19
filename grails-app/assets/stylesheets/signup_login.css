@@ -1,0 +1,71 @@
+body
+{
+    font-family : Calibri ;
+    line-height : 1 ;
+    margin : 0px ;
+    padding : 0px ;
+    text-decoration : none ;
+}
+
+section
+{
+    margin-top : 50px ;
+}
+
+section > header
+{
+    font-size : 1.5em ;
+    font-weight : bold ;
+    margin-left : auto ;
+    margin-right : auto ;
+    text-align : right ;
+    width : 750px ;
+}
+
+#signup_login
+{
+    margin-left : auto ;
+    margin-right : auto ;
+    margin-top : 25px ;
+    width : 400px ;
+}
+
+#signup_login > .form
+{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+#signup_login > .form > input
+{
+    border : 1px solid #E0E0E0 ;
+    font-family : Calibri ;
+    font-size : 1.1em ;
+    padding : 5px ;
+}
+
+#signup_login > .form > .submit
+{
+    background-color : #FFFFFF ;
+    border : 1px solid #E0E0E0 ;
+    color : #82B21A ;
+    float : right ;
+    height : 34px ;
+    margin-right : -12px ;
+    padding : 0 ;
+    width : 99px ;
+}
+
+#signup_login > .form > .submit:hover
+{
+    background-color : #82B21A ;
+    border : 1px solid #E0E0E0 ;
+    color : #242424 ;
+}
+
+.input
+{
+    border : 1px solid #E0E0E0 ;
+    margin : 0px ;
+    padding : 0px ;
+}
